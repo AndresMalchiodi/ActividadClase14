@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteinerheader{
+    background-image: url(../multimedia/imagenes/ferrari-header.jpg);
+    height: 500px;
+    background-position: center top -270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.conteinernav{
+    width: 200px;
+}
+
+header nav ul {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header li:hover{
+    background-color: black;
+    padding: 1px 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 40px;
+}
+
+.seccion1{
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.subtitulo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.text1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.seccion2{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto{
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.356);
+}
+
+.auto:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.tarjeta{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subsubtitulo{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.txtarjeta{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteinerfooter{
+    background-color: rgb(163, 161, 161);
+    margin-top: 80px;
+    padding-top: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.imgredes{
+    width: 50px;
+    height: 50px;
+}
+
+.conteinerul2{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: inline block;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+/*Estilos de página formulario*/
+
+.bodyform{
+    background-image: url(../multimedia/imagenes/bugattiv2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+input{
+    color: rgb(255, 255, 0);
+}
